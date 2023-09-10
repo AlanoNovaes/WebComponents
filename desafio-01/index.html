@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticías Galactica</title>
+    <link rel="stylesheet" href="../styles/card.css">
+    <!-- Defer NUNCA ESQUECER DE USAR ele indica pro navegador que o script so deve ser executado depois que a DOM (arvore) estiver concluída; -->
+    <script src="../src/Components/CardNews.js" defer></script>
+    <script src="../src/Components/TituloDInamico.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <card-news autor="Alano" title="Darth Vader Contrata" link-url="www.google.com"
+            photo="../assets/png-clipart-darth-vader-darth-vader.png"
+            contet="Darth Vader procura desenvolvedores que sabem trabalhar com componentes.">
+        </card-news>
+
+        <card-news photo="../assets/picotinha.jpg" autor="Maria Yasmin" title="Picotinha completa 6 meses de idade" link-url="www.google.com/picotinha"
+            contet="No dia 08 de setembro picotinha completa 6 meses de idade com quase 10 kilos.">
+        </card-news>
+
+        <card-news title="Trabalhar no sabado é legal?" link-url="www.google.com/trabalho_sabados"
+            contet="No dia 09 de setembro tenho que sair pra trabalhar.">
+        </card-news>
+
+</body>
+
+</html>
